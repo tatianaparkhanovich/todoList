@@ -1,0 +1,39 @@
+.container{
+max-width: 800px;
+margin: 100px auto 0 auto;
+}
+.title{
+text-align: center;
+color: rgb(27, 97, 122);
+margin-bottom: 10px;
+}
+.todos{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 10px;
+}
+.todo{
+  position: relative;
+  list-style: none;
+  width: 100%;
+  box-shadow: 2px 2px 10px 0 rgb(8, 113, 151);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.done{
+  text-decoration: line-through;
+}
+.delete{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  height: 25px;
+  cursor: pointer;
+}
+
+
